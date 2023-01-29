@@ -19,6 +19,9 @@ int main()
     {
         cout << "Student " << i << " : " << *(p + i) << endl;
     }
+    cout<<*(p+0)<<endl;
+    cout<<*(p+1)<<endl;
+    cout<<*(p+2)<<endl;
     delete[] p;
     return 0;
 }
